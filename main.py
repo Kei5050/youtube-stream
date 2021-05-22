@@ -1,7 +1,4 @@
 import streamlit as st
-import numpy as np
-import pandas as pd
-from PIL import Image
 import time
 
 
@@ -28,8 +25,3 @@ if button:
 expander = st.beta_expander('問い合わせ')
 expander.write('問い合わせ内容を書く')
 
-#text = st.text_input('あなたの趣味を教えてください。')
-#condition = st.slider('あなたの今の調子は？', 0, 100, 50)
-
-#'あなたの趣味：', text
-#'コンディション：', condition
